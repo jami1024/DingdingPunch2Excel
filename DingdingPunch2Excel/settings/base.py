@@ -120,7 +120,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'DingdingPunch2Excel.wsgi.application'
-# ASGI_APPLICATION = 'DingdingPunch2Excel.routing.application'
 
 
 # DRF的设置
@@ -169,4 +168,6 @@ STATIC_ROOT = '/www/www/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+TIME_ZONE = 'Asia/Shanghai'
 
