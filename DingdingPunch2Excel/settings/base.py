@@ -47,10 +47,10 @@ TWO_PARTY_APPS = [
     'rest_framework',
     'django_filters',
     'corsheaders',
-    # 'channels',
 ]
 
 LOCAL_APPS = [
+    'toexcel',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + TWO_PARTY_APPS + LOCAL_APPS
