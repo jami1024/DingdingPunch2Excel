@@ -1,0 +1,11 @@
+*.bak
+logs/*
+*.txt
+*.pyc
+*.exe
+./plugins/*.xml
+.idea
+!.gitignore
+!requirements.txt
+.DS_Store
+db.sqlite3
